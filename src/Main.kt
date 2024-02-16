@@ -1,6 +1,6 @@
 fun main() {
-    val name: String = "John";
-    val age: Int = 25;
+    var name: String = "John";
+    name = "Doe"; // Error: Val cannot be reassigned
 
-    println("Name: $name, Age: $age");
+    println("Name: $name");
 }
