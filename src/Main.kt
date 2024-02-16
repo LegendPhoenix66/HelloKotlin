@@ -1,5 +1,5 @@
 fun main() {
-    val name: String = getName(20) ?: "No Name";
+    val name: String = getName(age = 20) ?: "No Name";
 
     println("Name: $name");
 }
