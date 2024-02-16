@@ -1,11 +1,28 @@
-val name = "John Doe";
-var greeting : String? = null;
+fun sayHello(greeting: String, itemToGreet: String) = println("$greeting $itemToGreet")
+
 fun main() {
-
-    when (greeting) {
-        null -> println("Hi");
-        else -> println(greeting);
-    }
-
-    println(name);
+    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
+    println(interestingThings.size)
+    println(interestingThings[0])
+    println(interestingThings.get(0))
+    var sec = Second()
+    sec.second()
+    third()
 }
+
+fun isInt1(value: String): Boolean {
+    return try {
+        value.toInt()
+        true
+    } catch (e: NumberFormatException) {
+        false
+    }
+}
+
+fun isInt2(value: String) = try {
+    value.toInt()
+    true
+} catch (e: NumberFormatException) {
+    false
+}
+fun isInt(value: String) = value.toIntOrNull() != null
