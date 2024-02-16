@@ -1,10 +1,10 @@
-val name: String = "John Doe";
-var greeting: String = "Hello";
+val name = "John Doe";
+var greeting: String? = "Hello";
 fun main() {
     println(greeting);
     println(name);
 
-    greeting = "Hi";
+    greeting = null;
 
     println(greeting);
     println(name);
