@@ -1,7 +1,9 @@
 fun main() {
-    var name: String? = "John";
-    name = "Doe";
-    name = null;
+    val name: String = getName();
 
     println("Name: $name");
+}
+
+fun getName(): String {
+    return "John";
 }
