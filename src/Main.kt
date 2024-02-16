@@ -1,4 +1,5 @@
-const val name: String = "John Doe";
+val name: String = "John Doe";
+var greeting: String = "Hello";
 fun main() {
-    println(name);
+    println(greeting + name);
 }
