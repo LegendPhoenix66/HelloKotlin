@@ -1,4 +1,4 @@
-val name: String = "John Doe";
+const val name: String = "John Doe";
 fun main() {
     println(name);
 }
