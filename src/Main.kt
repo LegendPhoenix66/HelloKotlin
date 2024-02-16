@@ -8,5 +8,5 @@ fun calculateDimensions(length: Int, width: Int, height: Int, depth: Int, radius
 }
 
 fun main() {
-    calculateDimensions(length = 10, width = 20, height = 30, depth = 40, radius = 50, diameter = 60)
+    calculateDimensions(10, 20, height = 30, depth = 40, 50, 60)
 }
