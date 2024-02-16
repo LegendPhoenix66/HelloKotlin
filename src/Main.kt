@@ -5,9 +5,9 @@ fun main() {
 }
 
 fun getName(age: Int): String? {
-    if (age > 18) {
-        return "John Doe";
+    return if (age > 18) {
+        "John Doe";
     } else {
-        return null;
+        null;
     }
 }
