@@ -5,9 +5,10 @@ fun main() {
     println(interestingThings.size)
     println(interestingThings[0])
     println(interestingThings.get(0))
-    var sec = Second()
-    sec.second()
-    third()
+
+    for (interestingThing in interestingThings) {
+        println(interestingThing)
+    }
 }
 
 fun isInt1(value: String): Boolean {
