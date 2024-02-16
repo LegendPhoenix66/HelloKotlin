@@ -1,13 +1,12 @@
-fun main() {
-    val name: String = getName(age = 20) ?: "No Name";
-
-    println("Name: $name");
+fun calculateDimensions(length: Int, width: Int, height: Int, depth: Int, radius: Int, diameter: Int) {
+    println("Length: $length")
+    println("Width: $width")
+    println("Height: $height")
+    println("Depth: $depth")
+    println("Radius: $radius")
+    println("Diameter: $diameter")
 }
 
-fun getName(age: Int): String? {
-    return if (age > 18) {
-        "John Doe";
-    } else {
-        null;
-    }
+fun main() {
+    calculateDimensions(length = 10, width = 20, height = 30, depth = 40, radius = 50, diameter = 60)
 }
