@@ -1,9 +1,9 @@
 fun main() {
-    val name: String = getName();
+    val name: String = getName() ?: "No Name";
 
     println("Name: $name");
 }
 
-fun getName(): String {
-    return "John";
+fun getName(): String? {
+    return null;
 }
