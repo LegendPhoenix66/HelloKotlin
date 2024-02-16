@@ -1,10 +1,11 @@
 val name = "John Doe";
 var greeting : String? = null;
 fun main() {
-    if (greeting != null) {
-        println(greeting);
-    } else {
-        println("Hi");
+
+    when (greeting) {
+        null -> println("Hi");
+        else -> println(greeting);
     }
+
     println(name);
 }
