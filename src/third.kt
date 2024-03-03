@@ -1,3 +1,0 @@
-fun third() {
-    println("Third")
-}
